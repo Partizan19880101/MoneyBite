@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MerchantAdmin</title>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="9MKyOa9inj9ESh8BMT4aEE/1sxxv1n9zFcWY8nmo+4OyeopTWgbi5Gg4dTz2nXCm0nPuHCvc82bKCcc/QlUTZw==" />
+  
+
+  <link rel="stylesheet" media="all" href="/assets/application-c9af59f6e579674e74a3110b70ab229f71a18fbc5d5d134c3f117668efde3b17.css" data-turbolinks-track="reload" defer="defer" />
+  <script src="/assets/application-736d7e8f1012df9d212a13b3430dc141ad787d5d9c5fee19e2d73579118bb830.js" data-turbolinks-track="reload" defer="defer"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body id="page-top">
+
+<!-- Header -->
+<header class="b-g-white c-white">
+  <div class="container header" >
+    <div class="row">
+      <div class=col-12>
+        <div class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="/">
+            <img alt="Moneybite logo" class="d-inline-block align-top" src="/assets/logo-05bbc4b18a19bf53060dd1991cf89212f0ad403b7a3014315797b44ac2314c26.png" />
+</a>          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="fw500 f18 c-black collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 mx-auto justify-content-center">
+                <li class="nav-item">
+                  <a class=" nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="/contacts">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end align-items-left text-left position-relative mt-xs-4" style="flex-shrink: 0;width: 236px; text-align: right; margin-right: 15px;">
+                <li class="nav-item d-flex align-items-center">
+                  <a class=" nav-link" href="/users/sign_in">Login</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End header -->
+
+<!-- Main Content -->
+<main class="content d-flex my80 my-xs-4">
+  <div class="container">
+    <div class="content-wrapper d-flex">
+      <div class="row align-content-center minw100">
+        <div class="col-12">
+          <div id="page_notice" class="alert alert-info mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text"></div>
+          </div>
+          <div id="page_alert" class="alert alert-danger mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text">You need to sign in or sign up before continuing.</div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col mx-auto mb60">
+  <div class="card mb-5" >
+    <div class=" mt50 mb50 p-0 card-body text-center mx-auto">
+      <h2 class="fw500 f34 c-red mb54">WELCOME</h2>
+
+      <form class="fw100 f18 text-left needs-validation" id="new_user" novalidate="novalidate" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bfWkVYbLwBtouOuK0ZTKBrJidMEo5fvERSN4ZA6Mkh76mv3PRxzV3q7mKKk3l+Iakaw/Pv2m4g/byEkAoICO5A==" />
+        <div class="form-group">
+          <label class="mb15" for="email">Email</label><br />
+          <input autofocus="autofocus" autocomplete="email" class="form-control mb24" id="email" required="required" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$" data-empty="Empty email" data-invalid="Invalid email" type="email" value="" name="user[email]" />
+          <div class="invalid-feedback">
+            Error in field
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="mb15" for="password">Password</label><br />
+          <input autocomplete="current-password" class="form-control mb24" id="password" required="required" pattern=".{8,}$" data-empty="Empty password" data-invalid="Invalid password" type="password" name="user[password]" />
+          <div class="invalid-feedback">
+            Error in field
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="mb15" for="otp_attempt">One-time password</label><br />
+          <input class="form-control mb24" id="otp_attempt" pattern="^.{6,32}$" data-empty="Empty one time-password" data-invalid="Invalid one-time password" autocomplete="off" type="text" name="user[otp_attempt]" />
+          <div class="invalid-feedback">
+            Error in field
+          </div>
+        </div>
+
+        <div class="text-center  mx-auto">
+
+          <div class="notice-links mt-2">
+
+
+  <p ><a class="fw500 f18 c-brown p-0 link-bordered" href="/users/password/new">Forgot your password?</a></p>
+
+
+
+</div>
+
+          <div class="w50 actions mx-auto">
+            <input type="submit" name="commit" value="LOG IN" class="fw500 f22 btn-brown b-r10 btn btn-primary btn-md my-4" data-disable-with="LOG IN" />
+          </div>
+
+        </div>
+</form>
+    </div>
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- End of Content -->
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+  <div class="footer-copyright text-center py-3 ">
+    <span class="footer-logo mr-4" >
+      <img alt="Moneybite footer logo" class="" src="/assets/logo_footer-c88360f38564949523ae54dc2b2a6518070b8240295808bd1ef7495009665a70.png" />
+    </span>
+    <span>© 2019 Moneybite Limited. All rights reserved</span>
+    <a class="privacy_policy ml-4" href="/privacy_policy">Privacy policy</a>
+  </div>
+</footer>
+<!-- End of Footer -->
+
+</body>
+</html>

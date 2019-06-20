@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MerchantAdmin</title>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="V5qCCLsdyDH0GXr5j+l04Yir5adg4rvw0ayNtpOuDw8RIrpiTnm06thrEMRISh5XFS24pyToN+UOYNJ7qFPn6w==" />
+  
+
+  <link rel="stylesheet" media="all" href="/assets/application-c9af59f6e579674e74a3110b70ab229f71a18fbc5d5d134c3f117668efde3b17.css" data-turbolinks-track="reload" defer="defer" />
+  <script src="/assets/application-736d7e8f1012df9d212a13b3430dc141ad787d5d9c5fee19e2d73579118bb830.js" data-turbolinks-track="reload" defer="defer"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body id="page-top">
+
+<!-- Header -->
+<header class="b-g-white c-white">
+  <div class="container header" >
+    <div class="row">
+      <div class=col-12>
+        <div class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="/">
+            <img alt="Moneybite logo" class="d-inline-block align-top" src="/assets/logo-05bbc4b18a19bf53060dd1991cf89212f0ad403b7a3014315797b44ac2314c26.png" />
+</a>          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="fw500 f18 c-black collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 mx-auto justify-content-center">
+                <li class="nav-item">
+                  <a class=" nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="/contacts">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end align-items-left text-left position-relative mt-xs-4" style="flex-shrink: 0;width: 236px; text-align: right; margin-right: 15px;">
+                <li class="nav-item d-flex align-items-center">
+                  <a class=" nav-link" href="/users/sign_in">Login</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End header -->
+
+<!-- Main Content -->
+<main class="content d-flex my80 my-xs-4">
+  <div class="container">
+    <div class="content-wrapper d-flex">
+      <div class="row align-content-center minw100">
+        <div class="col-12">
+          <div id="page_notice" class="alert alert-info mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text"></div>
+          </div>
+          <div id="page_alert" class="alert alert-danger mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text"></div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class="privacy-policy b-g-white px50 px-xs-4">
+  <h1 class="c-red  mt-4">Moneybite Privacy Policy</h1>
+
+  <h3>LAST UPDATED 05.03.2019</h3>
+  <hr />
+ 
+  <p>This privacy policy sets out the data processing practices carried out through the use of the Internet and any
+    other electronic communications networks by Moneybite. If you have any requests concerning your personal information
+    or any queries with regard to these practices please contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d2a2a0bba4b3b1ab92bfbdbcb7abb0bba6b7fcb1bdbffc">[email&#160;protected]</a></p>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>1.</span>
+    INFORMATION ABOUT MONEYBITE
+  </h2>
+  <h3>Strongkeep Limited t/a “Moneybite” is registered in Malt</h3>
+  <h3>CRN C 86493</h3>
+  <h3>Level 2, Ennglad,</h3>
+  <h3>Valley Road,</h3>
+  <h3>Msida, Malta</h3>
+  <h3>Moneybite is a Business to Business Provider, and does not deal with personal individuals for
+    business purposes other than in exceptional cases.</h3>
+
+  <hr />
+  
+  <h2 class="c-red">
+    <span>2.</span>
+    THE PURPOSES AND LEGAL BASIS FOR PROCESSING, INCLUDING LEGITIMATE INTERESTS
+  </h2>
+
+  <h3>We only process Personal Information when we have a legal basis for the processing, as follows:</h3>
+  <ul class="pl-0">
+    <li>
+      To comply with our anti-money laundering and know your customer laws applicable to us in Malta and in Europe;
+    </li>
+    <li>
+      To fulfill a contract with you, where Moneybite is acting as a payment processor;
+    </li>
+    <li>
+      For closely-related purposes, such as payment processing and financial account management, contract management,
+      website administration, business continuity and disaster recovery, security and fraud prevention, corporate
+      governance, reporting and legal compliance,
+    </li>
+    <li>
+      With your consent (or provided you have not objected, or opted-out, as may be appropriate under applicable law),
+      to provide you with marketing communications, or,
+    </li>
+    <li>
+      To comply with the laws that are applicable to us around the world, including law enforcement requests regarding
+      activity on the use of
+    </li>
+  </ul>
+
+  <h3 class="ml20">We may also process your Personal Information for the purposes of our own legitimate interests or for
+    the legitimate interests of others, provided that processing does not and shall not outweigh your rights and
+    freedoms. In particular, we will process your Personal Information as needed to:</h3>
+
+  <ul class="pl-0">
+    <li>
+      Protect you, us or others from security, risk or fraud as may be required to maintain the integrity of our
+      services, our banking, and financial institution and other relationships in order to provide you with a good
+      service;
+    </li>
+    <li>
+      Enable or administer our business, such as for quality control, and customer service,
+    </li>
+    <li>
+      Manage corporate transactions, such as mergers or acquisitions, and
+    </li>
+    <li>
+      Understand and improve our business or customer relationships generally.
+    </li>
+  </ul>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>3.</span>
+    PROVIDING MONEYBITE INFORMATION
+  </h2>
+
+  <p>You are not required by law to provide any Personal Information to Moneybite. For example, you always decide
+    whether to participate in Moneybite promotions or to use Moneybite services. You are required to provide certain
+    Personal Information to enable us to enter into a contract with you so that you can use our products and services or
+    participate in promotions. Our registration forms indicate which data elements are required for our contracts. In
+    such cases, Moneybite collects and stores the data provided by you and required by it to comply with applicable
+    laws, including without limitation, its anti-money laundering and know your customer compliance programmes.</p>
+  <p class="mb20">In addition, every time you visit our website, move from page to page, read pages, or download content
+    onto your computer, we learn which pages are visited and what content is downloaded. However, this is measured only
+    in aggregate and not on an individual basis. When you send us an e-mail or ask us to respond to you by e-mail, we
+    learn your e-mail address and the information that you have included in the email form shown on our website.</p>
+  <p class="mb20">In relation to the information we gain when you email us, we may use your e-mail address to
+    acknowledge your comments and/or reply to your questions and we may store your communication and our reply in case
+    we need to correspond at a later date.</p>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>4.</span>
+    Disclosure of your personal data
+  </h2>
+
+  <p class="mb20">We may disclose your personal data to third parties for the purpose of fulfilling legitimate company
+    interests:</p>
+
+  <ul class="pl-0 mb20">
+    <li>
+      In the event that we sell or buy any business or assets, in which case we may disclose your personal data to the
+      prospective seller or buyer of such business or assets;
+    </li>
+    <li>
+      If shares in Moneybite or substantially all of its assets are acquired by a third party, in which case personal
+      data held by Moneybite about its customers will be one of the transferred assets;
+    </li>
+    <li>
+      If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in
+      order to enforce or apply our terms of use and other agreements; or to protect the rights, property, or safety of
+      Moneybite , our customers, or others. This includes exchanging data with other companies and organisations for the
+      purposes of fraud protection and credit risk reduction;
+    </li>
+    <li>
+      For the purposes of billing, debt collecting credit rating and verification and fraud prevention;
+    </li>
+    <li>
+      For the protection of the company’s legal position in the event of legal proceedings.
+    </li>
+  </ul>
+
+  <p>Your personal data shall not be processed for purposes other than those it was collected for; should further
+    processing be required, you will be informed of that purpose and provided with all necessary information.</p>
+  <p>You shall have the right to object to any of the above-mentioned legitimate company interests as a
+    basis for the processing of personal data and to forward any queries you may have by contacting us on
+    <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7d0d0f140b1c1e043d10121318041f140918531e121053">[email&#160;protected]</a> If you submit an objection, we will no longer process your personal data unless we can give
+    evidence of mandatory, legitimate reasons for processing, which outweigh your interests, rights, and freedoms, or
+    processing serves the enforcement, exercise, or defence of interests.
+  </p>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>5.</span>
+    YOUR RIGHTS
+  </h2>
+  <p>You have choices about how Moneybite uses your Personal Information. You always have the right to object to our
+    marketing communications. You can also object to having your Personal Information used to create anonymized and
+    aggregated marketing reports. Please send us an email here <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a3d3d1cad5c2c0dae3cecccdc6dac1cad7c68dc0ccce">[email&#160;protected]</a> to exercise these choices.</p>
+
+  <p>Moneybite also respects the rights of EEA residents to access, correct and request erasure or restriction of their
+    Personal Information as required by law. Where Moneybite is a data controller, this means:</p>
+
+  <ul class="pl-0">
+    <li>
+      You generally have a right to know if Moneybite is storing your Personal Information. If we are, you have the
+      right to request that we provide you with a copy of that Personal Information, or in some cases, provide the
+      information to another data controller. If your information is incorrect or incomplete, you have the right to ask
+      us to update it.
+    </li>
+    <li>
+      You have the right to object to our processing of your Personal Information.
+    </li>
+    <li>
+      You may also ask us to delete or restrict your Personal Information. If we are processing your Personal
+      Information based on your consent, you have the right to withdraw your consent at any time.
+    </li>
+  </ul>
+
+  <p>If Moneybite is processing your Personal Information as a data processor, we will refer you to our client (such as
+    the merchant you may have transacted with) for assistance with these requests. Moneybite supports its clients in
+    responding to requests as required by law.</p>
+  <p>If you believe that we have processed your Personal Information in violation of applicable law, you
+    may also file a complaint with the Moneybite Data Protection Officer, who can be reached by contacting
+    <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5424263d22352d14393b3a312d363d20317a373b39">[email&#160;protected]</a>, or with a supervisory authority.</p>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>6.</span>
+    Storing your personal data
+  </h2>
+  <h3>We do not currently transfer personal data outside of the EEA.</h3>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>7.</span>
+    DURATION
+  </h2>
+
+  <p>We will process and store your personal data for as long as it is necessary in order to fulfill our contractual,
+    regulatory and statutory obligations. We will assess and respond to requests to delete data. We will delete data
+    provided that the data is no longer required in order to fulfill contractual, regulatory or statutory obligations,
+    or the fulfillment of any obligations to preserve records according to law.</p>
+  <p>We will normally retain your records for a minimum of five years to comply with legal, regulatory and
+    contractual requirements unless there is a particular reason to hold the records for longer; your personal data may
+    be retained for longer periods in the event of prospective or pending debt collecting, legal or law-enforcement
+    proceedings and until such proceedings are formally and definitively concluded.</p>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>9.</span>
+    ACCESS REQUEST
+  </h2>
+  <h3>You have the right to request access to and a copy of your personal data as processed by us.</h3>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>10.</span>
+    Automatic Decision Making
+  </h2>
+
+  <p>In establishing and carrying out our business relationship, we generally do not make use of fully
+    automated decision making. If we use this procedure in individual cases, we shall inform you of this separately,
+    provided it is a legal requirement.</p>
+
+  <hr />
+
+  <h2 class="c-red">
+    <span>11.</span>
+    Contact
+  </h2>
+  <p class="mb50">Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to
+    our Data Protection Officer on <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4a3a38233c2b29330a2725242f3328233e2f6429252764">[email&#160;protected]</a></p>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- End of Content -->
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+  <div class="footer-copyright text-center py-3 ">
+    <span class="footer-logo mr-4" >
+      <img alt="Moneybite footer logo" class="" src="/assets/logo_footer-c88360f38564949523ae54dc2b2a6518070b8240295808bd1ef7495009665a70.png" />
+    </span>
+    <span>© 2019 Moneybite Limited. All rights reserved</span>
+    <a class="privacy_policy ml-4" href="/privacy_policy">Privacy policy</a>
+  </div>
+</footer>
+<!-- End of Footer -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

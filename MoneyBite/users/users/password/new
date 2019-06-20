@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MerchantAdmin</title>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="RzNJvjaC4IFQvXW2XcujVE720ym30k6jDxTe05Z4hHUBi3HUw+acWnzPH4uaaMni03COKfPYwrbQ2IEerYVskQ==" />
+  
+
+  <link rel="stylesheet" media="all" href="/assets/application-c9af59f6e579674e74a3110b70ab229f71a18fbc5d5d134c3f117668efde3b17.css" data-turbolinks-track="reload" defer="defer" />
+  <script src="/assets/application-736d7e8f1012df9d212a13b3430dc141ad787d5d9c5fee19e2d73579118bb830.js" data-turbolinks-track="reload" defer="defer"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body id="page-top">
+
+<!-- Header -->
+<header class="b-g-white c-white">
+  <div class="container header" >
+    <div class="row">
+      <div class=col-12>
+        <div class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="/">
+            <img alt="Moneybite logo" class="d-inline-block align-top" src="/assets/logo-05bbc4b18a19bf53060dd1991cf89212f0ad403b7a3014315797b44ac2314c26.png" />
+</a>          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="fw500 f18 c-black collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 mx-auto justify-content-center">
+                <li class="nav-item">
+                  <a class=" nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="/contacts">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end align-items-left text-left position-relative mt-xs-4" style="flex-shrink: 0;width: 236px; text-align: right; margin-right: 15px;">
+                <li class="nav-item d-flex align-items-center">
+                  <a class=" nav-link" href="/users/sign_in">Login</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End header -->
+
+<!-- Main Content -->
+<main class="content d-flex my80 my-xs-4">
+  <div class="container">
+    <div class="content-wrapper d-flex">
+      <div class="row align-content-center minw100">
+        <div class="col-12">
+          <div id="page_notice" class="alert alert-info mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text"></div>
+          </div>
+          <div id="page_alert" class="alert alert-danger mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text"></div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col mx-auto mb60">
+  <div class="card-password card mb-5 align-items-center p-3">
+    <div class="card-password__wrap mt30 mb30 p-0 text-center ">
+      <h2 class="header__line fw500 f34 c-red mb40">RESET PASSWORD</h2>
+
+      <form class=" fw100 f18 text-left mx-auto needs-validation" id="new_user" novalidate="novalidate" action="/users/password" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ikZ81rCchpUdmQuye2l/aFN6fuPEwhllbB3cCYV/L44MCn83bd4KJqWpcfKQWa2mX/6GmJWmbhIaC0VR9dMUYQ==" />
+
+        
+
+        <div class="form-group text-center">
+          <label for="validationCustom01" class="mb-3">Please enter your email address to request a password reset</label><br/>
+          <input required="required" placeholder="Email" autofocus="autofocus" autocomplete="email" class="card-password__input mx-auto form-control mb24" id="validationCustom01" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$" data-empty="Empty email" data-invalid="Invalid email" type="email" value="" name="user[email]" />
+          <div class="invalid-feedback">
+            Error in field
+          </div>
+        </div>
+
+
+        <div class="text-center mx-auto">
+
+          <div class="actionsp-0 m-0 mx-auto">
+            <input type="submit" name="commit" value="CONTINUE" class="fw500 f22 btn-brown b-r10 btn btn-primary btn-md mt-4" data-disable-with="CONTINUE" />
+          </div>
+
+        </div>
+</form>
+    </div>
+  </div>
+
+</div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- End of Content -->
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+  <div class="footer-copyright text-center py-3 ">
+    <span class="footer-logo mr-4" >
+      <img alt="Moneybite footer logo" class="" src="/assets/logo_footer-c88360f38564949523ae54dc2b2a6518070b8240295808bd1ef7495009665a70.png" />
+    </span>
+    <span>© 2019 Moneybite Limited. All rights reserved</span>
+    <a class="privacy_policy ml-4" href="/privacy_policy">Privacy policy</a>
+  </div>
+</footer>
+<!-- End of Footer -->
+
+</body>
+</html>

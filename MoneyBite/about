@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MerchantAdmin</title>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ekedeBL2jyyK8bIRIstFqsQJoG5dbZRaZgGseSDK9+E8/6US55Lz96aD2CzlaC8cWY/9bhlnGE+5zfO0GzcfBQ==" />
+  
+
+  <link rel="stylesheet" media="all" href="/assets/application-c9af59f6e579674e74a3110b70ab229f71a18fbc5d5d134c3f117668efde3b17.css" data-turbolinks-track="reload" defer="defer" />
+  <script src="/assets/application-736d7e8f1012df9d212a13b3430dc141ad787d5d9c5fee19e2d73579118bb830.js" data-turbolinks-track="reload" defer="defer"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body id="page-top">
+
+<!-- Header -->
+<header class="b-g-white c-white">
+  <div class="container header" >
+    <div class="row">
+      <div class=col-12>
+        <div class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="/">
+            <img alt="Moneybite logo" class="d-inline-block align-top" src="/assets/logo-05bbc4b18a19bf53060dd1991cf89212f0ad403b7a3014315797b44ac2314c26.png" />
+</a>          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="fw500 f18 c-black collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 mx-auto justify-content-center">
+                <li class="nav-item">
+                  <a class=" nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="active nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class=" nav-link" href="/contacts">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end align-items-left text-left position-relative mt-xs-4" style="flex-shrink: 0;width: 236px; text-align: right; margin-right: 15px;">
+                <li class="nav-item d-flex align-items-center">
+                  <a class=" nav-link" href="/users/sign_in">Login</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End header -->
+
+<!-- Main Content -->
+<main class="content d-flex my80 my-xs-4">
+  <div class="container">
+    <div class="content-wrapper d-flex">
+      <div class="row align-content-center minw100">
+        <div class="col-12">
+          <div id="page_notice" class="alert alert-info mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text"></div>
+          </div>
+          <div id="page_alert" class="alert alert-danger mx-auto d-none fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text"></div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class=" container b-g-white text-center px50 px-xs-4">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="mt40 mb60 f34 fw100 c-red">WHO WE ARE</h1>
+      <div class="container mb60">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="mb12 f28">◈</h1>
+            <h3 class="f18 fw100">Facilitating Crypto Payment Processing (CPP)</h3>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="mb12 f28">◈</h1>
+            <h3 class="f18 fw100">A proven crypto payment provider in high-volume industries</h3>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="mb12 f28">◈</h1>
+            <h3 class="f18 fw100">Individualised crypto services and Over The Counter trades</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h3 class="mb60 c-red">ABOUT US</h3>
+  <p class="fw100">A team of veterans with unrivalled expertise in banking, iGaming, payments and virtual currencies who
+    provide state of the art CPP, B2B Crypto Invoicing and OTC Services.</p>
+  <p class="fw100">Both our legacy software and platform have a proven track record with processed volumes in excess of
+    one billion Euros.</p>
+  <p class="mb60 fw100">Our infrastructure adheres to and often exceeds industry standards.</p>
+  <h3 class="mb80 f24 fw100">We are ready to take your business!</h3>
+  <h1 class="mb40 f36 c-red">OUR SERVICES</h1>
+  <div class="container mb80">
+    <div class="row ">
+      <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="mb20 f24 fw100">CPP (Crypto Payment Processing)</h2>
+        <h3 class="f18 fw100">Our flexible API allows your business to integrate crypto/BTC payments in a seamless
+          manner</h3>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="mb20 f24 fw100">B2B Crypto Invoicing</h2>
+        <h3 class="f18 fw100">Avoidance of edge cases such as late payments, over or under payments, by utilizing
+          automated refundable flows</h3>
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="mb20 f24 fw100">Crypto payments</h2>
+        <h3 class="f18 fw100">Automatically receive, track and convert crypto payments to any of the supported FIAT
+          currencies at spot rate</h3>
+      </div>
+      <div class="mb20 col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="mb20 f24 fw100">OTC Trading</h2>
+        <h3 class="f18 fw100 mb20">Simplify buying and selling crypto through:</h3>
+        <div class="text-left">
+          <h3 class="f18 fw100 mb20">◈ Execution Trading</h3>
+          <h3 class="f18 fw100 mb20">◈ Brokerage</h3>
+          <h3 class="f18 fw100 mb20">◈ Dedicated team of traders</h3>
+          <h3 class="f18 fw100 mb20">◈ Access to deep liquidity</h3>
+          <h3 class="f18 fw100 mb20">◈ 24/7 support</h3>
+          <h3 class="f18 fw100 mb20">◈ Fast settlements</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 class="mb60 f36 fw100 c-red">SECURITY COMPLIANCE</h1>
+  <h2 class="mb20 f24 fw100 c-red">Speed and Security are paramount in crypto.</h2>
+  <p class="f18 fw100 mb80">The Moneybite platform is designed and built to deliver fast response times whilst
+    protecting against the security concerns that are common in this space.</p>
+  <h1 class="mb34 f36 fw100 c-red">WHY MONEYBITE</h1>
+  <h4 class="mb20 f16 fw100">Zero chargeback risk</h4>
+  <h4 class="mb20 f16 fw100">No slippage</h4>
+  <h4 class="mb20 f16 fw100">Reduced exposure to handling and storing crypto assets</h4>
+  <h4 class="mb20 f16 fw100">Optional spot conversion of BTC to Euro (Instant)</h4>
+  <h4 class="mb20 f16 fw100">No volatility risk</h4>
+  <h4 class="mb20 f16 fw100">Reporting Platform for business insight</h4>
+  <h4 class="mb20 f16 fw100">Competitive fees</h4>
+  <h4 class="mb100 f16 fw100">Instant transaction confirmation</h4>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- End of Content -->
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+  <div class="footer-copyright text-center py-3 ">
+    <span class="footer-logo mr-4" >
+      <img alt="Moneybite footer logo" class="" src="/assets/logo_footer-c88360f38564949523ae54dc2b2a6518070b8240295808bd1ef7495009665a70.png" />
+    </span>
+    <span>© 2019 Moneybite Limited. All rights reserved</span>
+    <a class="privacy_policy ml-4" href="/privacy_policy">Privacy policy</a>
+  </div>
+</footer>
+<!-- End of Footer -->
+
+</body>
+</html>
